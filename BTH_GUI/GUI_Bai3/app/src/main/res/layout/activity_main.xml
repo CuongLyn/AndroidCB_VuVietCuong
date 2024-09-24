@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".MainActivity" >
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:background="#4CAF50"
+            android:gravity="center"
+            android:text="Chuyển đổi năm Dương lịch"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/txtTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập tên"
+            android:textColor="#03A9F4"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập chiều cao"
+            android:textColor="#03A9F4"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_chieucao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/txt_cannang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập cân nặng"
+            android:textColor="#03A9F4"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_cannang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btn_Tinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="Tính BMI" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI ="
+            android:textColor="#03A9F4"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_bmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#F44336"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chuẩn đoán:"
+            android:textColor="#03A9F4"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_chuandoan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#F44336"
+            android:textSize="20sp" />
+    </TableRow>
+
+
+</TableLayout>
